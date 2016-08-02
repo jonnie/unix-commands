@@ -16,3 +16,7 @@ https://rbgeek.wordpress.com/2012/10/08/how-to-mount-ec2-ebs-storage-to-ec2-linu
 **Uncompress and import MySQL database**
 
     gunzip < outputfile.sql.gz | mysql < mysql options>
+
+**Find/Replace**
+
+    sed -i "s/text to find/text to replace/g" /path/to/file
